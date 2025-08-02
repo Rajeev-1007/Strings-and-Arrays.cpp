@@ -43,6 +43,27 @@ Key Differences:
 
 Arrays and C-style strings foster deep understanding of memory layout and indexing. They are essential for mastering logic-based algorithms in C++.
 
+# Algorithm
+
+1) Algorithm of array elements.
+   i) Initialize an integer array
+    - Define numbers[] = {1, 2, 3, 4, 5}
+  ii) Calculate array size
+    - Use arraySize = sizeof(numbers) / sizeof(numbers[0])
+      (This computes the total number of elements in the array)
+ iii) Display a header message
+   - Print "Elements of the array:" to console
+ iV) Traverse the array using a loop
+   - Run a for loop with index i from 0 to arraySize - 1
+   - On each iteration, print numbers[i] followed by a space
+ V) Move to a new line after loop ends
+ Vi) End the program
+
+2) Algorithm of 
+
+
+
+
 # Conclusion
 
 Arrays and strings in C++ form the backbone of structured data handling. Mastering their indexing, memory layout, and manipulation lays the foundation for deeper algorithmic logic and efficient program design.
