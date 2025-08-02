@@ -95,7 +95,7 @@ Arrays and C-style strings foster deep understanding of memory layout and indexi
      - Compute n = str.length() → total length of the string
      - Declare flag isPalindrome = true
        
-  ii) Iterate through half of the string
+   ii) Iterate through half of the string
     - Use loop: for i = 0 to n/2 - 1
     - Compare characters from both ends:  str[i] vs. str[n - 1 - i].
     - If mismatch occurs:
@@ -103,9 +103,9 @@ Arrays and C-style strings foster deep understanding of memory layout and indexi
     - Exit loop using break
          
   iii) Decision based on the flag
-    - If isPalindrome == true
+   - If isPalindrome == true
      - Output: "Palindrome"
-  - Else
+   - Else
      - Output: "Not a Palindrome"
        
   iV) Terminate program
