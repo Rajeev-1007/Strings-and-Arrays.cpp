@@ -59,7 +59,24 @@ Arrays and C-style strings foster deep understanding of memory layout and indexi
  V) Move to a new line after loop ends
  Vi) End the program
 
-2) Algorithm of 
+2) Algorithm of array search.
+   i) Declare and Initialize Array
+    - Define a static integer array: numbers[] = {1, 2, 3, 4, 5}
+   ii) Calculate Array Size
+    - Use formula: arraySize = sizeof(numbers) / sizeof(numbers[0])
+    - This dynamically calculates the number of elements in the array
+   iii) Output Header
+    - Print "Elements of the array:" to indicate what's being displayed
+   iV) Traverse and Display Elements
+    - Start a loop: for i = 0 to arraySize - 1
+     - On each iteration, output numbers[i] followed by a space
+    V) Print Final Newline
+    - After the loop ends, print a newline for clean output formatting
+    Vi) Terminate Program
+    - End execution using return 0
+
+
+
 
 
 
