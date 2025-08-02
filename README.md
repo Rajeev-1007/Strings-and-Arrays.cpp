@@ -96,12 +96,11 @@ Arrays and C-style strings foster deep understanding of memory layout and indexi
      - Declare flag isPalindrome = true
        
   ii) Iterate through half of the string
-    - Use loop: for i = 0 to n/2 - 1
-      - Compare characters from both ends:
-        str[i] vs. str[n - 1 - i]
+      - Use loop: for i = 0 to n/2 - 1
+      - Compare characters from both ends:  str[i] vs. str[n - 1 - i]
       - If mismatch occurs:
-        - Set isPalindrome = false
-         - Exit loop using break
+      - Set isPalindrome = false
+      - Exit loop using break
          
   iii) Decision based on the flag
   - If isPalindrome == true
